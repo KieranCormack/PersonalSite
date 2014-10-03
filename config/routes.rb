@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  Kieran::Application.routes.draw do
+  Woodslabs::Application.routes.draw do
 
     resources :woodtype
 
