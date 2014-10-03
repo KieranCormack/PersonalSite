@@ -1,0 +1,12 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'welcome';
+
+.background-color{
+  background-color: rgba(200, 187, 173, .6);
+}
+
+.inside-color{
+  background-color: white;
+  box-shadow: 0 0 10px #000;
+}
