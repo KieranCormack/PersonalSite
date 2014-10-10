@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import 'welcome';
+@import 'profile';
+@import 'contact';
 
 .background{
   background-image: url('backgroundimage.png');
@@ -17,4 +18,10 @@
 
 .move-down {
   padding-top: 200px; 
+  min-height:100%;
 }
+
+.orange:hover{
+  color: rgb(252,177,29) !important;
+}
+

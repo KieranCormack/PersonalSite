@@ -1,0 +1,68 @@
+.inline {
+  display:inline-block;
+  padding: 20px;
+}
+
+.contactinfo-holder{
+  border-radius: 10px;
+  height: 400px;
+  weight:400px;
+  margin: 100px;
+  background-color: white;
+ box-shadow: 10px 10px 5px #888;}
+
+.title{
+  font-family:Arial;
+  font-size: 36px;
+  color: rgb(252,177,29);
+  padding: 30px 0px 0px 25px;
+}
+
+.info {
+  height:300px;
+  width: 300px;
+  position:absolute;  
+}
+
+.lineitup{
+  line-height: 50px;
+}
+.lineitup span{
+  vertical-align: middle;
+}
+
+.contactinfomargin{
+  margin-left: 50px;
+}
+
+.gitimage {
+  content:url(https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png);
+  height:50px;
+  width:50px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+.linkedin{
+  content:url(http://static.wixstatic.com/media/2a1a77_1a85c54cacbb47a6b867088659ef562c.jpg);
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.email{
+  content:url(http://www.clker.com/cliparts/n/P/R/a/Z/Y/email-logo-md.png);
+  height: 40px;
+  width: 40px;
+  margin-left: 55px;
+  vertical-align: middle;
+}
+
+.phonenumber{
+  content:url(http://simpleicon.com/wp-content/uploads/phone-symbol-2.svg);
+  height: 40px;
+  width: 40px;
+  margin-left: 55px;
+  vertical-align: middle;
+}
+
