@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
 
+
   Woodslabs::Application.routes.draw do
 
-    resources :woodtype
+    resources :profile, :only => [:index]
 
-    resources :admin, :only 
+    resources :contact, :only => [:index]
+
 
   root to: 'welcome#index'
 
