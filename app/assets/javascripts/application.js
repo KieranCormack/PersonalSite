@@ -15,3 +15,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(function() {
+  $(".phonenumber").on('mouseenter', function(){
+    var showNumber = $('.phonenumber').find('.shownumber');
+    console.log(showNumber);
+    $(showNumber).addClass('active');
+
+  });
+});

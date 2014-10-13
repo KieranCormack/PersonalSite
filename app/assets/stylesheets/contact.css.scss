@@ -1,71 +1,49 @@
 .inline {
   display:inline-block;
   padding: 20px;
+  text-align:50%;
 }
 
-.contactinfo-holder{
-  border-radius: 10px;
-  height: 400px;
-  weight:400px;
-  margin: 100px;
-  background-color: white;
-  box-shadow: 10px 10px 5px #888;
+.contactsection{
+  width:auto;
+  background-color:white;
+  height: auto;
+  text-align: center;
 }
 
-.title{
-  font-family:Arial;
-  font-size: 36px;
-  color: #EDA12B;
-  padding: 30px 0px 0px 25px;
-}
-
-.info {
-  height:300px;
-  width: 300px;
-  position:absolute;  
-}
-
-.lineitup{
-  line-height: 50px;
-}
-.lineitup span{
-  vertical-align: middle;
-}
-
-.contactinfomargin{
-  margin-left: 50px;
-  font-family:Academy Engraved;
-}
 
 .gitimage {
-  content:url(https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png);
+  content:url(http://www.scolvin.com/juliabyexample/static/github.png);
   height:50px;
   width:50px;
-  margin-left: 50px;
   vertical-align: middle;
+  margin-right:100px;
+  margin-left: 100px;
+  padding-bottum: 20px;
 
 }
 .linkedin{
-  content:url(http://static.wixstatic.com/media/2a1a77_1a85c54cacbb47a6b867088659ef562c.jpg);
+  content:url(http://cdn.flaticon.com/png/256/2496.png);
   height: 50px;
   width: 50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   vertical-align: middle;
+  padding-bottum: 20px;
 }
 
 .email{
   content:url(http://www.clker.com/cliparts/n/P/R/a/Z/Y/email-logo-md.png);
-  height: 40px;
-  width: 40px;
-  margin-left: 55px;
+  height: 50px;
+  width: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   vertical-align: middle;
+  padding-bottum: 20px;
 }
 
-.phonenumber{
-  content:url(http://simpleicon.com/wp-content/uploads/phone-symbol-2.svg);
-  height: 40px;
-  width: 40px;
-  margin-left: 55px;
-  vertical-align: middle;
-}
+
+
+
+
 
