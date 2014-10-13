@@ -2,13 +2,12 @@
 @import "bootstrap";
 @import 'profile';
 @import 'contact';
+@import 'homepage';
+@import 'welcome';
 
 .background{
-  background-image: url('backgroundimage.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #EFC869;
+ 
 }
 
 .inside-color{
@@ -25,3 +24,8 @@
   color: rgb(252,177,29) !important;
 }
 
+footer{
+  width:auto;
+  height:100px;
+  background-color:#222222;
+}
