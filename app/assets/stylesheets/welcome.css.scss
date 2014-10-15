@@ -59,22 +59,29 @@
 .about-me{
   width:auto;
   height:auto;
-  background-color: #EDA12B;
+  background-color: white;
   padding: 50px;
 }
 
 
 .aboutmetext{
   text-align:center;
-  line-height: 10px;
+
   color: #261506;
 }
 
 .headerstyle{
-  text-decoration: underline;
-  color: #52944E;
+
+  width: 150px auto;
+
+}
+.infoparagraph{
+  font-weight: 300;
+  font-size: 1.1em;
+
 }
 
 .subheaderstyle{
-  color: #FD6446;
+  font-weight: 400;
+  color: #222222;
 }
