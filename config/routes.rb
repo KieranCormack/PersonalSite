@@ -3,9 +3,10 @@ Rails.application.routes.draw do
 
   Woodslabs::Application.routes.draw do
 
-    resources :profile, :only => [:index]
-
+    resources :webapp, :only => [:index]
     resources :contact, :only => [:index]
+    resources :sculpture, :only => [:index]
+
 
 
   root to: 'welcome#index'
