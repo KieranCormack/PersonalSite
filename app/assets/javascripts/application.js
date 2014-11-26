@@ -12,10 +12,10 @@
 //
 //= require jquery
 //= require bootstrap-sprockets
-//= require colorbox-rails
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require colorbox-rails
 $(function() {
   $(".phonenumber").on('mouseenter', function(){
     var showNumber = $('.phonenumber').find('.shownumber');
