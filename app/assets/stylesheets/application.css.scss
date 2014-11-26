@@ -1,10 +1,11 @@
-
+//*= require colorbox-rails
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import 'profile';
 @import 'contact';
 @import 'homepage';
 @import 'welcome';
+@import 'sculpt';
 
 .background{
   background-color: #261506;
