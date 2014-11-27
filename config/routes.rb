@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
 
 
+  get 'cv/index'
+
   Woodslabs::Application.routes.draw do
+
+  get 'cv/index'
 
     resources :webapp, :only => [:index]
     resources :contact, :only => [:index]
