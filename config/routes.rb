@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
 
 
+  get 'digital/index'
+
   get 'cv/index'
 
   Woodslabs::Application.routes.draw do
+
+  get 'digital/index'
 
   get 'cv/index'
 
