@@ -5,7 +5,7 @@
   background-image: url('/images/welcomeheader.png');
   margin-top:50px;
   padding-left: 200px;
-  padding-top: 100px;
+  padding-top: 90px;
   font-family: Arial;
   font-size: 28px;
 }
@@ -16,8 +16,23 @@
   background-color: #055C74;
 }
 
-#hello{
+.bc-text{
+  font-size: 22px;
+}
 
+.title-color{
+  color:#FF9900;
+}
+
+.title-color:hover{
+  color:white;
+}
+
+.navbar-nav > li{
+  color:#FF9900;
+}
+
+#hello{
 -webkit-animation: fadein 6s;
 -moz-animation: fadein 6s;
 -ms-animation: fadein 6s;
@@ -66,24 +81,25 @@
 
 .aboutmetext{
   text-align:center;
-
   color: #261506;
 }
 
 .headerstyle{
-
   width: 150px auto;
-
 }
 .infoparagraph{
   font-weight: 300;
   font-size: 1.1em;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
 
 }
 
 .subheaderstyle{
   font-weight: 400;
   color: #222222;
+  text-align: left;
 }
 .img-thumbnail{
   width:auto;

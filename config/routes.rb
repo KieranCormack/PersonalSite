@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
 
 
+  get 'ceramic/index'
+
   get 'digital/index'
 
   get 'cv/index'
 
   Woodslabs::Application.routes.draw do
+
+  get 'ceramic/index'
 
   get 'digital/index'
 
@@ -15,6 +19,7 @@ Rails.application.routes.draw do
     resources :contact, :only => [:index]
     resources :sculpture, :only => [:index]
     resources :resume, :only => [:index]
+
 
 
 

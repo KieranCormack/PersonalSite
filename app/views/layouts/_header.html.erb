@@ -6,24 +6,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">Kieran Cormack</a>
+            <a href='/' class="navbar-brand"><span class='title-color'>Kieran Cormack</span></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li> <%= link_to 'Home', root_path%></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu"> 
                 <li><%= link_to 'Web Applications', webapp_index_path%></li>
                 <li><%= link_to 'Sculpture', sculpture_index_path%> </li>
                 <li><%= link_to 'Digital Media', digital_index_path%> </li>
-                </ul>
-
-
-
-
                 <li><%= link_to 'Resume', cv_index_path%></li>
-      
             </ul>
         </div>
        
