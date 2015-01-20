@@ -1,0 +1,2 @@
+class CascadiaController < ApplicationController
+end

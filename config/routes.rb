@@ -19,6 +19,7 @@ Rails.application.routes.draw do
     resources :contact, :only => [:index]
     resources :sculpture, :only => [:index]
     resources :resume, :only => [:index]
+    resources :cascadia, :only => [:index]
 
 
 
